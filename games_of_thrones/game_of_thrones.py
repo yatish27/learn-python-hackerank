@@ -10,5 +10,8 @@ flag = 0
 for value in h.values():
     (value % 2 == 0) ? continue : flag+=1
   
-(flag > 1) ? print("NO") : print("YES")
+if (flag > 1): 
+    print("NO") 
+else:
+    print("YES")
 
