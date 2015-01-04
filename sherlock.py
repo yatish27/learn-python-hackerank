@@ -10,8 +10,4 @@ cnt = int(input())
 for _ in range(cnt):
     k = int(input())
     li = [int(x) for x in input().split()]
-    if(gcd(li) == 1):
-        print("YES")
-    else:
-        print("NO")
-        
+    print("YES" if gcd(li) == 1 else "NO")

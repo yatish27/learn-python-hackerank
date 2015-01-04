@@ -15,7 +15,3 @@ for i in range(members):
 m = max(h.keys())
 print(m)
 print(h[m])
-
-        
-
-

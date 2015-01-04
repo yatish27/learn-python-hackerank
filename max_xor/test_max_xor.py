@@ -2,6 +2,7 @@
 import unittest
 import max_xor
 
+
 class MaxXorTestCase(unittest.TestCase):
     def test_max_xor(self):
         self.assertEqual(7, max_xor.max_xor(10, 15))
@@ -9,5 +10,3 @@ class MaxXorTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
