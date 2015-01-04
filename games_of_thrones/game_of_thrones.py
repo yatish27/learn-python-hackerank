@@ -1,8 +1,8 @@
+import collections
 string = input()
 
-h = {}
+h = collections.Counter()
 for i in string:
-    h.setdefault(i, 0)
     h[i]+=1
 
 flag = 0
