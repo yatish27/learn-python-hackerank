@@ -4,7 +4,7 @@ team = []
 for i in range(members):
     team.append(input())
 
-h = {}≡jedi=0, ≡        (start, *stop = None*, step = 1) ≡jedi≡
+h = {}
 for i in range(members):
     for j in range(i + 1, members):
         no = int(team[i], 2) | int(team[j], 2)
