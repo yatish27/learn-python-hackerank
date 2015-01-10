@@ -1,5 +1,6 @@
 cnt = int(input())
 
+
 def calc(num):
     mi = -1
     for i in range(num + 1):
